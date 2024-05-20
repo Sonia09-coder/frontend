@@ -1,0 +1,119 @@
+.login-container {
+    display: flex;
+    padding-right: 3.5rem;
+    border-radius: 60px;
+    background-color: #e5e7eb;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .login-branding {
+    background-color: #f0f4f8;
+    flex: 1;
+    height: 500px;
+    border-top-left-radius: 53px;
+  }
+  
+  .login-title {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color:#f0f4f8;
+    background-color: #f0f4f8;
+    /*border-radius: 53px px 0 38px;*/
+    border-top-left-radius: 53px;
+    border-bottom-left-radius: 53px;
+    height: 390px;
+  }
+  
+  .login-title span:first-child {
+    color: #f97316;
+  }
+  
+  .login-title span:nth-child(2),
+  .login-title span:nth-child(5),
+  .login-title span:nth-child(7),
+  .login-title span:nth-child(8) {
+    color: #2563eb;
+  }
+  
+  .login-title span:nth-child(6) {
+    color: #059669;  
+  }
+  
+  .login-title span:nth-child(4),
+  .login-title span:nth-child(7) {
+    color: #f97316;
+  }
+  
+  .signup-title span:last-child {
+    color: #2563eb;
+  }
+  
+.login-form {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  height: 550px;
+}
+
+.login-heading {
+  margin-top: 2.8rem;
+  font-size: 5xl;
+  font-weight: bold;
+  text-align: center;
+}
+
+.username-field,
+.password-field {
+  margin-top: 0.07rem;
+  text-align: center;
+}
+
+.username-field label,
+.password-field label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.username-input,
+.password-input {
+  padding: 1rem 2.5rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #e5e7eb;
+}
+
+
+.sign-in-button {
+  margin-top: 1.4rem;
+  padding: 1rem 2.5rem;
+  background-color: #2B456C;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 200px;
+  margin-left: 294px;
+}
+
+.register-link {
+  margin-top: 1.4rem;
+  text-align: center;
+  color: rgb(17, 16, 16);
+  font-weight: bolder;
+}
+
+.register-link a {
+  color: rgb(35, 33, 33);
+  text-decoration: none;
+  font-weight: bolder;
+}
